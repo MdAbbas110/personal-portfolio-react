@@ -37,7 +37,7 @@ export default function Home() {
               Abbas Abidi
             </h1>
             <ul className='flex items-center'>
-              <li className='cursor-pointer text-2xl text-black'>
+              <li className='cursor-pointer text-2xl text-black dark:text-white'>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />
               </li>
               <li>
