@@ -8,7 +8,7 @@ import {
   AiFillGithub,
 } from 'react-icons/ai';
 import Image from 'next/image';
-import abbas from '../public/dev-ed-wave.png';
+import abbas from '../public/hdIMG.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
@@ -70,7 +70,7 @@ export default function Home() {
             <AiFillTwitterCircle />
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={abbas} layout='fill' objectFit='cover' alt='Img' />
+            <Image src={abbas} layout='fill' objectFit='contain' alt='Img' />
           </div>
         </section>
 
